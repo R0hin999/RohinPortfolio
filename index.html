@@ -310,7 +310,7 @@
 
           <section class="testimonials-modal">
 
-            <button class="modal-close-btn" data-modal-close-btn>
+            <button  class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
 
@@ -337,56 +337,6 @@
 
         </div>
 
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
 
       </article>
 
@@ -419,10 +369,13 @@
 
         <section class="projects">
 
-          <!-- <ul class="filter-list">
+          <ul class="filter-list">
 
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
             </li>
 
             <li class="filter-item">
@@ -430,14 +383,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>UI UX</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
 
-          </ul> -->
+          </ul>
 
           <div class="filter-select-box">
 
@@ -456,17 +406,16 @@
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
+              
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
 
               <li class="select-item">
                 <button data-select-item>Web design</button>
               </li>
-
               <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>UI UX</button>
               </li>
 
             </ul>
@@ -476,6 +425,23 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://skillify-sepia.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ss4.jpg" alt="Skillify" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Skillify</h3>
+
+                <p class="project-category">An Online Learning Platform</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://www.linkedin.com/posts/rohin-biyal_hey-everyone-excited-to-share-my-latest-activity-7159094410930974720-S-Dk?utm_source=share&utm_medium=member_desktop">
 
                 <figure class="project-img">
@@ -483,7 +449,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="Full Stack" loading="lazy">
+                  <img src="./assets/images/project-1.jpg" alt="Rave" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Rave</h3>
@@ -506,12 +472,12 @@
 
                 <h3 class="project-title">Sneaker Head</h3>
 
-                <p class="project-category">Full Stack App</p>
+                <p class="project-category">Sneaker Shopping platform</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://www.linkedin.com/posts/rohin-biyal_hi-there-so-i-made-my-first-fully-responsive-activity-6976188027991678976-6lQt?utm_source=share&utm_medium=member_desktop">
 
                 <figure class="project-img">
@@ -524,7 +490,7 @@
 
                 <h3 class="project-title">My Gadget Warehouse</h3>
 
-                <p class="project-category">Full Stack App</p>
+                <p class="project-category">Ecommerce for gadgets</p>
 
               </a>
             </li>
@@ -539,7 +505,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="To Do List" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">To Do List Task Tracker</h3>
@@ -551,7 +517,7 @@
 
            
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="ui ux">
               <a href="https://www.behance.net/gallery/187018707/Instagram-Spatial-UI">
 
                 <figure class="project-img">
@@ -559,17 +525,17 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="Instagram Spatial UI" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Instagram Spatial UI</h3>
 
-                <p class="project-category">UI/UX Design</p>
+                <p class="project-category">UI UX Design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item data-category="ui ux">
               <a href="https://www.behance.net/gallery/174842603/Vibe-Verse-Music-App-UiUx">
 
                 <figure class="project-img">
@@ -577,12 +543,12 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/project-8.jpg" alt="Vibe Verse" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Vibe Verse (Music App)</h3>
 
-                <p class="project-category">UI/UX Design</p>
+                <p class="project-category">UI UX Design</p>
 
               </a>
             </li>
